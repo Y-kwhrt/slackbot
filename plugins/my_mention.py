@@ -30,8 +30,8 @@ def listen_func(message):
     #message.send('誰かヴィンランド・サガの話してる？')
     message.reply('ヴィンランドサガの話ししてます？')
 
-
 @respond_to('天気')
+@listen_to('天気')
 def weather(message):
     import urllib
     import json
@@ -45,6 +45,10 @@ def weather(message):
     telop = jsonfile['forecasts'][0]['telop']
     celsius_max = jsonfile['forecasts'][0]['temperature']['max']['celsius']
 
+    # if jsonfile["forecasts"][0]["temperature"]["min"]["celsius"] is not None:
+    #     celsius_min = jsonfile["forecasts"][0]["temperature"]["min"]["celsius"]
+    # else:
+    #     celsius_min = "--"
     #celsius_min = jsonfile['forecasts'][0]['temperature']['min']['celsius']
     # なぜか最低気温を出力するとなると
     # TypeError: 'NoneType' object is not subscriptable
@@ -70,5 +74,5 @@ def weather(message):
         telop_icon = ':fire:'
     text = title + '\n' + '今日の天気 : ' + telop + telop_icon \
            + '\n' + '最高気温 : ' + celsius_max + '℃' \
-            #+ '最低気温 : ' + celsius_min + '℃'
+            # + '最低気温 : ' + celsius_min + '℃'
     message.reply(text)
