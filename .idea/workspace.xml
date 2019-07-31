@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="415b97a2-9096-40c0-8d64-c45db5a6ead8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/plugins/my_mention.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/my_mention.py" afterDir="false" />
-    </list>
+    <list default="true" id="415b97a2-9096-40c0-8d64-c45db5a6ead8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/my_mention.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="1200">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="e#30#87#0" expanded="true" />
               </folding>
@@ -152,8 +150,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/plugins/my_mention.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="1200">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="e#30#87#0" expanded="true" />
           </folding>
