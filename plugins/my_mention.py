@@ -77,7 +77,7 @@ def weather(message):
            + '\n' + '最高気温 : ' + celsius_max + '℃' \
             # + '最低気温 : ' + celsius_min + '℃'
     message.reply(text)
-=======
+
 from slackbot.bot import respond_to # @botname: で反応するデコーダ
 from slackbot.bot import listen_to #　チャンネル内発言で反応するデコーダ
 from slackbot.bot import default_reply # 該当する応答がない場合に反応するデコーダ
@@ -108,4 +108,3 @@ def mention_func(message):
 def listen_func(message):
     message.send('誰かヴィンランド・サガの話してる？')
     message.reply('話が分かるヤツが来た…！')
->>>>>>> origin/master
