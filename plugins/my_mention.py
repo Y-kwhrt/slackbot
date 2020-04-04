@@ -57,9 +57,9 @@ def weather(message):
 
     telop_icon = ''
     if telop.find('雪') > -1:
-        telop_icon = ':showman:'
+        telop_icon = ':snowman:'
     elif telop.find('雷') > -1:
-        telop_icon = ':thinder_cloud_and_rain:'
+        telop_icon = ':thunder_cloud_and_rain:'
     elif telop.find('晴') > -1:
         if telop.find('曇') > -1:
             telop_icon = ':partly_sunny:'
