@@ -2,7 +2,7 @@ beautifulsoup4==4.6.3
 certifi==2019.6.16
 chardet==3.0.4
 idna==2.8
-Pillow==6.0.0
+Pillow==8.3.2
 requests==2.22.0
 six==1.12.0
 slackbot==0.5.3
